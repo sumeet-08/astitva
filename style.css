@@ -23,6 +23,34 @@ body{
     align-items: center;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px ;
+}
+
+.menu a {
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    text-align: left;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 280;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .8s ease-in-out;
+}
+
+.club1.active .menu {
+    max-height: 300px;
+    animation: fade .5s ease-in-out;
+}
+
 .logo {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -297,3 +325,5 @@ svg {
         transform: translateY(-10px);
     }
 }
+
+
