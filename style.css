@@ -336,7 +336,7 @@ svg {
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
-    border-radius: 14px;
+    border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
@@ -345,8 +345,9 @@ svg {
     font-family: 'Poppins', sans-serif;
     text-align: left;
     margin-left: 8px;
-    font-size: 21px;
+    font-size: 24px;
     margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .form-p {
@@ -354,7 +355,8 @@ svg {
     font-size: 16px;
     text-align: left;
     margin-left: 8px;
-    margin-top: 0px;
+    margin-top: 18px;
+    margin-bottom: 20px;
 }
 
 .popup-card {
@@ -368,37 +370,36 @@ svg {
 
 .closePopupBtn {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 31px;
+    right: 22px;
     background-color: white;
     border: none;
     cursor: pointer;
+    color: rgb(86, 86, 86);
 }
 
 .sports-form {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    padding: 10px 24px;
+    font-family: 'Poppins', sans-serif;  
+    padding: 13px 24px;
     color: white;
-    background-color: blue;
+    background-color: rgb(68, 68, 243);
     border: none;
     border-radius: 24px;
-    margin-bottom: 7px;
+    margin-bottom: 17px;
     font-size: 14px;
     margin-top: 0px;
 }
 
 .others-form {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    padding: 8px 24px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px;
     color: black;
     background-color: white;
-    border: 0.1rem solid lightgray;
+    border: 0.01rem solid rgb(173, 173, 173);
     border-radius: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     font-size: 14px;
 }
 
