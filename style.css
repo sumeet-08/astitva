@@ -328,7 +328,7 @@ svg {
 }
 
 .popup-container {
-    width: 350px;
+    width: 340px;
     display: none;
     position: fixed;
     top: 50%;
@@ -345,6 +345,16 @@ svg {
     font-family: 'Poppins', sans-serif;
     text-align: left;
     margin-left: 8px;
+    font-size: 21px;
+    margin-top: 0px;
+}
+
+.form-p {
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 0px;
 }
 
 .popup-card {
@@ -358,7 +368,7 @@ svg {
 
 .closePopupBtn {
     position: fixed;
-    top: 30px;
+    top: 20px;
     right: 20px;
     background-color: white;
     border: none;
@@ -374,7 +384,9 @@ svg {
     background-color: blue;
     border: none;
     border-radius: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    margin-top: 0px;
 }
 
 .others-form {
@@ -386,7 +398,8 @@ svg {
     background-color: white;
     border: 0.1rem solid lightgray;
     border-radius: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+    font-size: 14px;
 }
 
 .overlay {
