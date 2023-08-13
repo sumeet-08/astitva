@@ -326,3 +326,76 @@ svg {
         transform: translateY(-10px);
     }
 }
+
+.popup-container {
+    width: 330px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 8px;
+}
+
+.popup-card {
+    text-align: center;
+}
+
+.form-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.closePopupBtn {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sports-form {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    padding: 10px 24px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 24px;
+    margin-bottom: 10px;
+}
+
+.others-form {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    padding: 8px 24px;
+    color: black;
+    background-color: white;
+    border: 0.1rem solid lightgray;
+    border-radius: 24px;
+    margin-bottom: 15px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
